@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Content = () => {
   return (
-    <div className="">
+    <div className="p-4 bg-slate-200">
       <h1>The Rise of AI in Everyday Life</h1>
       <p>
         Artificial Intelligence is becoming more integrated into our daily
