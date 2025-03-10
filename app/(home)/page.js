@@ -1,12 +1,19 @@
-import { Button } from "@/components/ui/button.jsx";
+import Content from "@/components/content.jsx";
+import RecentContent from "@/components/recentContent.jsx";
+import TopPosts from "@/components/topPosts.jsx";
 
 export default function Home() {
   return (
-    <div className="m-4">
-      <h1>this is home page</h1>
-      <Button variant="destructive" className="bg-green-400 hover:bg-green-500">
-        click
-      </Button>
+    <div className="wrapper">
+      <div className="flex flex-col lg:flex-row lg:gap-4">
+        <div className="flex-3/4">
+          <Content />
+        </div>
+        <div className="flex-1/4">
+          <RecentContent />
+        </div>
+      </div>
+      <TopPosts />
     </div>
   );
 }
