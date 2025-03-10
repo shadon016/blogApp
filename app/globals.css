@@ -126,6 +126,6 @@
 }
 @layer components {
   .wrapper {
-    @apply p-[2rem];
+    @apply px-[4rem] py-4 uppercase font-semibold text-sm;
   }
 }
