@@ -1,7 +1,7 @@
 import Content from "@/components/content.jsx";
 import RecentContent from "@/components/recentContent.jsx";
 import TopPosts from "@/components/topPosts.jsx";
-
+import CarouselContainer from "@/components/carouselContainer.jsx";
 export default function Home() {
   return (
     <div className="wrapper">
@@ -13,7 +13,14 @@ export default function Home() {
           <RecentContent />
         </div>
       </div>
-      <TopPosts />
+      <div className="flex gap-3">
+        <div className="flex-3/4">
+          <TopPosts />
+        </div>
+        <div className="1/4">
+          <CarouselContainer />
+        </div>
+      </div>
     </div>
   );
 }
