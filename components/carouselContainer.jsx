@@ -8,7 +8,7 @@ import {
 
 const CarouselContainer = () => {
   return (
-    <Carousel className="h-96 w-fit">
+    <Carousel className="h-96 w-fit mt-4">
       <CarouselContent>
         <CarouselItem>item one</CarouselItem>
         <CarouselItem>item two</CarouselItem>
