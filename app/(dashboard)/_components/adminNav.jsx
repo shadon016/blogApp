@@ -11,7 +11,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const AdminNav = () => {
   return (
-    <div className="flex justify-between items-center wrapper">
+    <div className="flex justify-between items-center wrapper sticky top-0">
       <Logo />
       <div>
         <DropdownMenu>

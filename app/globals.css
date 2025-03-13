@@ -128,4 +128,7 @@
   .wrapper {
     @apply px-[4rem] py-4;
   }
+  input {
+    @apply outline-1 p-1;
+  }
 }
