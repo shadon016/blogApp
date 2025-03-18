@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const SideNav = () => {
   return (
-    <div className="flex flex-col gap-4 wrapper capitalize bg-slate-100 w-fit">
+    <div className="flex flex-col gap-4 wrapper capitalize w-fit">
       <Link href="" className="bg-slate-200 px-4 py-2">
         add post
       </Link>

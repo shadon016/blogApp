@@ -128,7 +128,8 @@
   .wrapper {
     @apply px-[4rem] py-4;
   }
-  input {
+  input,
+  textarea {
     @apply outline-1 p-1;
   }
 }
