@@ -11,7 +11,7 @@ import Logo from "@/components/logo.jsx";
 
 const Nav = ({ navItems }) => {
   return (
-    <nav className="">
+    <nav className="sticky top-0 bg-slate-50">
       <div className="wrapper">
         <div className="flex justify-between items-center">
           <Link href="/">
